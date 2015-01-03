@@ -15,7 +15,7 @@ var value1,value2,flag,calresul,opflag,plus;
 			//alert("hripal");
 
 
-			$(".btn").click(function(){
+			$(".btn2").click(function(){
 				if(flag===0)
 				{
 			value1+=(this).value;
@@ -34,7 +34,7 @@ var value1,value2,flag,calresul,opflag,plus;
 		     });
 
 			$(".btn1").click(function(){
-				
+				console.log("ghg");
                 flag=1;
 				opflag=(this).value;
 				$("#resultbox").val($("#resultbox").val()+opflag);
@@ -73,6 +73,12 @@ var value1,value2,flag,calresul,opflag,plus;
 		        $("#resultbox").val(calresult);
 	            }
 	        }
+	        value2="";
+			value1="";
+			opflag="";
+			plus="";
+			flag=0;
+
 
 			});
 		
